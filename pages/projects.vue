@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <h1>
-            A propos
+            Mes projets
         </h1>
     </div>
 </template>
