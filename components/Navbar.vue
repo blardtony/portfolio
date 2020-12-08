@@ -7,11 +7,31 @@
 
             <b-collapse id="nav-collapse"  is-nav>
                 <b-navbar-nav class="ml-auto">
-                    <b-nav-item href="#">Accueil</b-nav-item>
-                    <b-nav-item href="#">À propos</b-nav-item>
-                    <b-nav-item href="#">Compétences</b-nav-item>
-                    <b-nav-item href="#">Mes projet</b-nav-item>
-                    <b-nav-item href="#">Contact</b-nav-item>
+                    <b-nav-item 
+                        to="/"
+                    >
+                        Accueil
+                    </b-nav-item>
+                    <b-nav-item 
+                        to="about"
+                    >
+                        À propos
+                    </b-nav-item>
+                    <b-nav-item 
+                        to="skills"
+                    >
+                        Compétences
+                    </b-nav-item>
+                    <b-nav-item 
+                        to="projects"
+                    >
+                        Mes projet
+                    </b-nav-item>
+                    <b-nav-item
+                        to="contact"
+                    >
+                        Contact
+                    </b-nav-item>
                     
                 </b-navbar-nav>
 
@@ -21,10 +41,12 @@
                         rel="noopener noreferrer"
                         target="_blank" 
                         href="https://www.linkedin.com/in/tony-blard-1483a1168"
+                        class="h4 mb-0"
                     >   
                         <font-awesome-icon :icon="['fab', 'linkedin']"/>
                     </b-nav-item>
                     <b-nav-item 
+                        class="h4 mb-0"
                         target="_blank" 
                         href="https://github.com/blardtony"
                         rel="noopener noreferrer"
